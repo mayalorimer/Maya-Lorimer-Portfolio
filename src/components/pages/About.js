@@ -1,11 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; 
+import image from '../../images/headshot.jpeg';
 
 export default function About() {
   return (
     <div>
       <h1>About Me</h1>
-      <Link to={'../../images/headshot'}></Link>
+      <img src={image}></img>
       <p>
       Full stack web developer educated at UCLA Extension. Passionate about problem solving and 
       creating efficient and effective solutions. A motivated worker who is also flexible based 
