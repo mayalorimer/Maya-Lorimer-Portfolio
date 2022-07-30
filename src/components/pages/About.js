@@ -5,8 +5,9 @@ import "../../style.css";
 export default function About() {
   return (
     <div class="about">
-      <h1>About Me</h1>
-      <img src={image} alt="headshot"></img>
+      <h1>Maya Lorimer</h1>
+      <hr></hr>
+      <img src={image} alt="headshot" class="headshot"></img>
       <p>
       Full stack web developer educated at UCLA Extension. Passionate about problem solving and 
       creating efficient and effective solutions. A motivated worker who is also flexible based 

@@ -47,6 +47,7 @@ export default function Contact() {
   return (
     <div class='contact'>
       <h1>Contact Me</h1>
+      <hr></hr>
       <Form>
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label>Name: </Form.Label>

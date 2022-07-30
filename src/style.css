@@ -1,6 +1,5 @@
 body {
-    padding: 5px;
-    margin: 2px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 @media only screen and (max-width: 768px){
@@ -8,6 +7,13 @@ body {
         padding: 1px;
         margin: 1px;
   }
+}
+
+.nav {
+    background-color: #D0DAEE;
+    margin-top: 0px;
+    padding-top: 0px; 
+    width: 100%; 
 }
 
 .myName {
@@ -25,6 +31,14 @@ body {
 .resume,
 .portfolio {
     margin-bottom: 60px; 
+}
+
+.about,
+.contact,
+.resume,
+.portfolio {
+    margin-right: 150px;
+    margin-left: 150px;
 }
 
 .footer {
@@ -52,4 +66,14 @@ body {
   
   .icon-style:hover {
     padding:5px;
+  }
+
+
+  .headshot {
+    width: 30%;
+    border-radius: 50%;
+  }
+
+  hr {
+    width: 100%;
   }
