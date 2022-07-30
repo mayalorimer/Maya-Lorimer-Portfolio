@@ -1,3 +1,8 @@
+body {
+    padding: 5px;
+    margin: 2px;
+}
+
 .about,
 .contact,
 .resume,
