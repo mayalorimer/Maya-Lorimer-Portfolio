@@ -10,35 +10,35 @@
         "id": 2,
         "name": "Tech Blog",
         "image": "https://github.com/mayalorimer/TechBlog/raw/main/public/css/assets/shot.jpg",
-        "github": "https://github.com/mayalorimer/House-Plant-Helper",
-        "deploy": "https://desolate-anchorage-75648.herokuapp.com/"
+        "github": "https://github.com/mayalorimer/TechBlog",
+        "deploy": "https://nameless-brushlands-85044.herokuapp.com"
     },
     {
         "id": 3,
         "name": "Smart Pack",
         "image": "https://user-images.githubusercontent.com/100829940/173667474-fc7c32e9-91cc-407f-b5bb-c4efd4e334f0.png",
-        "github": "https://github.com/mayalorimer/House-Plant-Helper",
-        "deploy": "https://desolate-anchorage-75648.herokuapp.com/"
+        "github": "https://github.com/mayalorimer/SmartPack",
+        "deploy": "https://mayalorimer.github.io/SmartPack/"
     },
     {
         "id": 4,
         "name": "Note Taker App",
         "image": "https://github.com/mayalorimer/Note-Taker-App/raw/main/public/assets/screenshot2.jpg",
-        "github": "https://github.com/mayalorimer/House-Plant-Helper",
-        "deploy": "https://desolate-anchorage-75648.herokuapp.com/"
+        "github": "https://github.com/mayalorimer/Note-Taker-App",
+        "deploy": "https://fast-taiga-29369.herokuapp.com"
     },
     {
         "id": 5,
         "name": "Social Network API",
         "image": "https://github.com/mayalorimer/Social-Network-API/raw/main/utils/Screen%20Shot%202022-07-29%20at%209.57.58%20PM.png",
-        "github": "https://github.com/mayalorimer/House-Plant-Helper",
-        "deploy": "https://desolate-anchorage-75648.herokuapp.com/"
+        "github": "https://github.com/mayalorimer/Social-Network-API",
+        "deploy": "https://github.com/mayalorimer/Social-Network-API/"
     },
     {
         "id": 6,
         "name": "SQL Employee Tracker",
         "image": "https://github.com/mayalorimer/SQL-Employee-Tracker/raw/main/Screen%20Shot%202022-07-29%20at%209.59.58%20PM.png",
-        "github": "https://github.com/mayalorimer/House-Plant-Helper",
-        "deploy": "https://desolate-anchorage-75648.herokuapp.com/"
+        "github": "https://github.com/mayalorimer/SQL-Employee-Tracker",
+        "deploy": "https://github.com/mayalorimer/SQL-Employee-Tracker"
     }
 ]
