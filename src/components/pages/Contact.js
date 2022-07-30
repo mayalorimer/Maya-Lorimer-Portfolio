@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import { validateEmail } from '../../utils/helpers.js';
+import "../../style.css";
 
 export default function Contact() {
   const [formState, setFormState] = useState({ name: '', email: '', message: '' });
@@ -44,7 +45,7 @@ export default function Contact() {
 
 
   return (
-    <div>
+    <div class='contact'>
       <h1>Contact Me</h1>
       <Form>
       <Form.Group className="mb-3" controlId="formBasicEmail">

@@ -1,9 +1,10 @@
 import React from 'react';
 import image from '../../images/headshot.jpeg';
+import "../../style.css";
 
 export default function About() {
   return (
-    <div>
+    <div class="about">
       <h1>About Me</h1>
       <img src={image} alt="headshot"></img>
       <p>

@@ -2,10 +2,11 @@ import React from 'react';
 import Row from 'react-bootstrap/Row';
 import portfolio from '../../portfolio.json'
 import ProjectCard from './projectCard';
+import "../../style.css";
 
 export default function Portfolio() {
   return (
-    <div>
+    <div class="portfolio">
       <h1>Portfolio</h1>
 
       <Row xs={1} md={2} className="g-4">

@@ -27,11 +27,8 @@ export default function PortfolioContainer() {
 
   return (
     <div>
-      {/* // TODO: Add a comment describing what we are passing as props */}
-      {/* // we are passing the variable that says what page they are on and the function to handle the page change */}
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-      {/* // TODO: Add a comment explaining what is happening on the following line */}
-{/*       // they are calling the render page function which uses logic to determine which page to render */}
+      
       {renderPage()}
     </div>
   );
