@@ -1,22 +1,33 @@
 import React from 'react';
+import Card from 'react-bootstrap/Card';
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
+import portfolio from '../../portfolio.json'
 
 export default function Portfolio() {
   return (
     <div>
       <h1>Portfolio</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
+
+      <Row xs={1} md={2} className="g-4">
+      {portfolio.map((project, index) => (
+        <Col key={index}>
+          <Card>
+            <Card.Img variant="top" src={project.image}/>
+            <Card.Body>
+              <Card.Title>{project.name}</Card.Title>
+              <Card.Text>
+                <a href={portfolio.github}>Github </a>
+                <a href={portfolio.deployed}>Deployed app</a>
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
+      ))}
+    </Row>
+  
+
+
     </div>
   );
 }

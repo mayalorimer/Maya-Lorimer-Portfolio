@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Green Guardian",
+        "image": "../../images/techblog.jpg",
+        "github": "https://github.com/mayalorimer/House-Plant-Helper",
+        "deploy": "https://desolate-anchorage-75648.herokuapp.com/"
+    },
+    {
+        "id": 2,
+        "name": "Tech Blog",
+        "image": "../../images/techblog.jpg",
+        "github": "https://github.com/mayalorimer/House-Plant-Helper",
+        "deploy": "https://desolate-anchorage-75648.herokuapp.com/"
+    },
+    {
+        "id": 3,
+        "name": "Smart Pack",
+        "image": "../../images/smartpack.jpg",
+        "github": "https://github.com/mayalorimer/House-Plant-Helper",
+        "deploy": "https://desolate-anchorage-75648.herokuapp.com/"
+    },
+    {
+        "id": 4,
+        "name": "Green Guardian",
+        "image": "../../images/techblog.jpg",
+        "github": "https://github.com/mayalorimer/House-Plant-Helper",
+        "deploy": "https://desolate-anchorage-75648.herokuapp.com/"
+    },
+    {
+        "id": 5,
+        "name": "Green Guardian",
+        "image": "../../images/techblog.jpg",
+        "github": "https://github.com/mayalorimer/House-Plant-Helper",
+        "deploy": "https://desolate-anchorage-75648.herokuapp.com/"
+    },
+    {
+        "id": 6,
+        "name": "Green Guardian",
+        "image": "../../images/techblog.jpg",
+        "github": "https://github.com/mayalorimer/House-Plant-Helper",
+        "deploy": "https://desolate-anchorage-75648.herokuapp.com/"
+    }
+]
