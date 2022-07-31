@@ -10,6 +10,7 @@
     "axios": "^0.27.2",
     "bootstrap": "^5.2.0",
     "dotenv": "^16.0.1",
+    "gh-pages": "^4.0.0",
     "react": "^17.0.2",
     "react-bootstrap": "^2.4.0",
     "react-dom": "^17.0.2",
@@ -18,6 +19,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b main -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -40,5 +43,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "homepage": "https://mayalorimer.github.io/Maya-Lorimer-Portfolio"
 }
