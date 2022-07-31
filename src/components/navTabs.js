@@ -1,21 +1,18 @@
 import React from 'react';
 import "../style.css";
 
-// TODO: Add a comment explaining how we are able to extract the key value pairs from props
-// using the destructuring method, use this instead of props so you dont have to do props.pageChange, etc. 
+
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <div>
       <ul className="nav nav-tabs">
         <li class="myName">
-          Maya Lorimer  
+          Maya Lorimer   
         </li>
         <li className="nav-item">
           <a
             href="#about"
             onClick={() => handlePageChange('About')}
-            //  TODO: Add a comment explaining what this logic is doing
-
             className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
           >
             About Me
@@ -25,8 +22,6 @@ function NavTabs({ currentPage, handlePageChange }) {
           <a
             href="#portfolio"
             onClick={() => handlePageChange('Portfolio')}
-            //  TODO: Add a comment explaining what this logic is doing
-            // if the current page variable is equal to blog it is changing the nav-link class to active for the blog, otherwise it is removing the active class
             className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'} 
           >
             Portfolio
@@ -35,8 +30,6 @@ function NavTabs({ currentPage, handlePageChange }) {
         <li className="nav-item">
           <a
             href="#contact"
-            //  TODO: Add a comment explaining what this logic is doing
-
             onClick={() => handlePageChange('Contact')}
             className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
           >

@@ -6,7 +6,15 @@ body {
     body{
         padding: 1px;
         margin: 1px;
-  }
+    }
+    .about,
+    .contact,
+    .resume,
+    .portfolio {
+        margin-right: 100px;
+        margin-left: 100px;
+        margin-bottom: 50px;
+    }
 }
 
 .nav {
@@ -17,6 +25,7 @@ body {
 }
 
 .nav-item {
+    color: #645460;
     padding-top: 2%;
 }
 
@@ -24,11 +33,11 @@ body {
     margin: 2px; 
     margin-right: 10px;
     padding: 5px; 
-    padding-top: 2%;
     font-size: 30px; 
     font-weight: bolder;
     position: relative;
     padding-top: 15px;
+    color: #645460;
 }
 
 .about,
@@ -42,8 +51,8 @@ body {
 .contact,
 .resume,
 .portfolio {
-    margin-right: 150px;
-    margin-left: 150px;
+    margin-right: 15%;
+    margin-left: 15%;
     margin-bottom: 100px;
 }
 
@@ -74,6 +83,12 @@ body {
     padding:5px;
   }
 
+  .card:hover {
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
+  }
+
 
   .headshot {
     width: 30%;
@@ -88,4 +103,18 @@ body {
 
   h1 {
     padding-top: 35px;
+  }
+
+  .projectImg {
+    height: 275px; 
+  }
+
+  a {
+    text-decoration: none;
+    color: #645460;
+  }
+
+  .nav-link:visited {
+    text-decoration: none;
+    color: #516292;
   }

@@ -5,8 +5,8 @@ import React from 'react';
 function ProjectCard(props) {
     return (
     <Col>
-        <Card>
-            <Card.Img variant="top" src={props.image} alt={props.name}/>
+        <Card className="card">
+            <Card.Img variant="top" className="projectImg" src={props.image} alt={props.name}/>
             <Card.Body>
                 <Card.Title>{props.name}</Card.Title>
                 <Card.Text>
