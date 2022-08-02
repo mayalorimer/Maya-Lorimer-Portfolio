@@ -10,9 +10,9 @@ function ProjectCard(props) {
             <Card.Body>
                 <Card.Title>{props.name}</Card.Title>
                 <Card.Text>
-                <a href={props.github}>Github</a>
+                <a href={props.github} target="_blank" rel="noreferrer">Github</a>
                 <br/>
-                <a href={props.deploy}>Deployed app</a>
+                <a href={props.deploy} target="_blank" rel="noreferrer">Deployed app</a>
                 </Card.Text>
             </Card.Body>
         </Card>

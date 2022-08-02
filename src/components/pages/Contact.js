@@ -38,17 +38,11 @@ export default function Contact() {
       e.preventDefault();
   }
 
-
-
-
-
-
-
   return (
     <div class='contact'>
       <h1>Contact Me</h1>
       <hr></hr>
-      <Form>
+      <Form onSubmit={handleSubmit}>
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label>Name: </Form.Label>
         <Form.Control type="name" placeholder="Enter your name" name="name" onBlur={handleChange} />
@@ -73,7 +67,7 @@ export default function Contact() {
       )}
 
 
-      <Button variant="primary" type="submit" onSubmit={handleSubmit}>
+      <Button variant="primary" type="submit">
         Submit
       </Button>
     </Form>

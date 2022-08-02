@@ -114,6 +114,9 @@ body {
     color: #645460;
   }
 
+  .nav-link {
+    color: #516292;
+  }
   .nav-link:visited {
     text-decoration: none;
     color: #516292;
