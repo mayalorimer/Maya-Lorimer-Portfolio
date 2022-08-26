@@ -89,6 +89,9 @@ body {
     box-shadow: 0 0 10px #ccc;
   }
 
+  .card {
+    text-align: center;
+  }
 
   .headshot {
     width: 30%;
@@ -119,5 +122,17 @@ body {
   }
   .nav-link:visited {
     text-decoration: none;
+    color: #516292;
+  }
+
+  .tech {
+    color: rgb(123, 122, 122); 
+  }
+
+  .links {
+    text-decoration: none;
+  }
+
+  .links:visited {
     color: #516292;
   }

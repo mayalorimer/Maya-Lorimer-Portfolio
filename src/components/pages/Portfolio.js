@@ -11,7 +11,7 @@ export default function Portfolio() {
       <hr></hr>
       <Row xs={1} md={2} className="g-4">
       {portfolio.map((project, index) => (
-        <ProjectCard key={project.id} image={project.image} name={project.name} github={project.github} deploy={project.deploy}/>
+        <ProjectCard key={project.id} image={project.image} name={project.name} github={project.github} deploy={project.deploy} tech={project.tech} description={project.description}/>
       ))}
     </Row>
   
