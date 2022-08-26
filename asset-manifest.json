@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Maya-Lorimer-Portfolio/static/css/main.afe98e7a.css",
-    "main.js": "/Maya-Lorimer-Portfolio/static/js/main.9f9ce4f8.js",
+    "main.css": "/Maya-Lorimer-Portfolio/static/css/main.6b9cf00f.css",
+    "main.js": "/Maya-Lorimer-Portfolio/static/js/main.77d55f55.js",
     "static/media/headshot.jpeg": "/Maya-Lorimer-Portfolio/static/media/headshot.a35ddfb4ac264e7a4a64.jpeg",
     "index.html": "/Maya-Lorimer-Portfolio/index.html",
-    "main.afe98e7a.css.map": "/Maya-Lorimer-Portfolio/static/css/main.afe98e7a.css.map",
-    "main.9f9ce4f8.js.map": "/Maya-Lorimer-Portfolio/static/js/main.9f9ce4f8.js.map"
+    "main.6b9cf00f.css.map": "/Maya-Lorimer-Portfolio/static/css/main.6b9cf00f.css.map",
+    "main.77d55f55.js.map": "/Maya-Lorimer-Portfolio/static/js/main.77d55f55.js.map"
   },
   "entrypoints": [
-    "static/css/main.afe98e7a.css",
-    "static/js/main.9f9ce4f8.js"
+    "static/css/main.6b9cf00f.css",
+    "static/js/main.77d55f55.js"
   ]
 }
