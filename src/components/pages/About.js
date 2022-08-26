@@ -12,7 +12,8 @@ export default function About() {
       Full stack web developer educated at UCLA Extension. Passionate about problem solving and 
       creating efficient and effective solutions. A motivated worker who is also flexible based 
       on an ability to stay organized. A background in nutrition and wine making/wine sales leveraging 
-      a unique perspective for a web developer. 
+      a unique perspective for a web developer. Proficient in problem solving, attention to detail, and critical thinking. Well versed in software development tools 
+      including Javascript, HTML, CSS, Express.js, and React.
       </p>
       <p>
       I graduated from Cal Poly, San Luis Obispo in December 2021 with a degree in Nutrition, concentration
